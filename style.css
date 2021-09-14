@@ -1,0 +1,140 @@
+.mainbody {
+    padding-right: 90px;
+    padding-left: 90px;
+}
+
+
+.nav {
+    background-color: #3F3F46;
+    
+    color: #1d1c17;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom-left-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+    padding: 0rem 2rem;
+    padding-top: 1.5rem;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list {
+    box-sizing: border-box;
+    margin: auto; 
+    padding-left: 575px;
+    padding-bottom: 10px;
+}
+.nav-item {
+    display: inline-block;
+    text-align: right;
+    padding: 0.5rem 4rem;
+}
+
+.nav-title {
+    margin: auto;
+    padding: 1.50rem;
+    text-align: left;
+    color: #f3eed9;
+}
+
+
+.nav-brand {
+
+    right: 0px;
+    width: 40px;
+    padding: 10px;
+}
+
+
+
+.link--selected {
+    text-decoration: bold;
+    color: black;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding-bottom: 90px;
+}
+.link {
+    text-decoration: none;
+    color: #f3eed9;
+}
+
+.nav-item {
+    display: inline-block;
+    text-align: center;
+    padding: 0.5rem 3rem;
+}
+
+.div {
+    display: block;
+}
+
+.container {
+    padding: 2rem 5rem;
+    max-width: 600px;
+    text-align: center;
+}
+
+.hero-img {
+    padding-top: 1rem;
+    width: 55%;
+}
+
+.hero-text {
+    font-size: 2rem;
+    color: #222c2a;
+}
+
+.section-1 {
+    background-color: #f3eed9;
+    color: #824936;
+}
+
+.section-2 {
+    background-color: #3F3F46;
+    color: #f3eed9;
+}
+
+.footer {
+    background-color: #3F3F46;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    margin: 0;
+}
+
+.footer-title {
+    text-align: center;
+    margin: 0;
+    padding-top: 1.5rem;
+    text-decoration: double;
+    color: white;
+}
+
+.footer-social-list {
+    text-align: center;
+    padding: 1rem  2rem ;
+}
+
+.footer-social-listitem {
+    padding: 1.2rem;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+
+.btn {
+    display: inline-block;
+    border-radius: 1rem;
+    border-style: dotted;
+    background-color: #f5f6fa;
+    color: #3F3F46;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    margin: 0.5rem;
+}
+

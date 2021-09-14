@@ -4,9 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Abhishek's Portfolio</title>
 </head>
 <body>
-    <h1>This is my component library </h1>
+    <body class="mainbody">
+        <nav class="nav flex">
+           
+          <div class="nav-list">
+            <a class="link nav-item link--selected" href="/index.html">Home</a>
+    
+            <a class="link nav-item" href="projects.html">Projects</a>
+    
+            <a class="link nav-item" href="/pages/blogs.html">Blogs</a>
+          </div>
+        </nav>
+    
+        <header class="flex hero">
+          <div class="container">
+            <img class="hero-img" src="/images/web-dev.svg" alt="">
+            <h1 class="hero-text">Hello I am Abhishek S,</h1>
+            <p>
+              I'm an aspiring Front-end Developer willing translate the company and customer needs into functional and appealing interactive applications.
+            </p>
+          </div>
+        </header>
+    
+        <section class="flex section-1">
+          <div class="container">
+            <h2>Technologies</h2>
+            <p>HTML, CSS, JavaScript, React, MongoDB, NodeJS, C++, JAVA</p>
+          </div>
+        </section>
+        <section class="flex section-2">
+          <div class="container">
+            <h2>My Projects</h2>
+            <p>The list of all the projects that I have built.</p>
+            <a href="projects.html" class="btn">Browse Projects</a>
+          </div>
+        </section>
+        <section class="flex section-1">
+          <div class="container">
+            <h2>Blogs</h2>
+            <p>
+              These are some of the blogs that I've written which might interest you!
+            </p>
+            <a href="/pages/blogs.html" class="btn">Read Blogs</a>
+          </div>
+        </section>
+        <footer class="footer">
+          <h2 class="footer-title">Connect with me on</h2>
+          <ul class="footer-social-list">
+            
+            <li class="footer-social-listitem">
+              <a class="link" href="/" target="_blank">
+                <img class="social-svg" src="/images/linkedin-icon.svg">LinkedIn</a>
+            </li>
+            <li class="footer-social-listitem">
+              <a class="link" href="/" target="_blank">
+                <img class="social-svg" src="/images/twitter-icon.svg">Twitter</a>
+            </li>
+            <li class="footer-social-listitem">
+              <a class="link" href="/" target="_blank">
+                <img class="social-svg" src="/images/instagram-icon.svg">Instagram</a>
+            </li>
+            <li class="footer-social-listitem">
+              <a class="link" href="/" target="_blank">
+                <img class="social-svg" src="/images/github-icon.svg">GitHub</a>
+            </li>
+          </ul>
+        </footer>
+      
 </body>
 </html>
